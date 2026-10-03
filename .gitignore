@@ -8,3 +8,5 @@ apps/api/data/
 coverage/
 *.log
 .vite/
+*.tsbuildinfo
+scripts/
