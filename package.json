@@ -1,0 +1,18 @@
+{
+  "name": "bayonne-resto",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev -w apps/api",
+    "dev:web": "npm run dev -w apps/web",
+    "seed": "npm run seed -w apps/api",
+    "build": "npm run build -w apps/api && npm run build -w apps/web && npm run build -w apps/mcp",
+    "mcp": "npm run start -w apps/mcp",
+    "smoke": "npm run smoke -w apps/api"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
