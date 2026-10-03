@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/api.ts","./src/main.tsx","./src/vite-env.d.ts","./src/pages/HomePage.tsx","./src/pages/LoginPage.tsx","./src/pages/QuartierPage.tsx","./src/pages/RestaurantPage.tsx","./src/pages/admin/AdminLayout.tsx","./src/pages/admin/AdminQuartiers.tsx","./src/pages/admin/AdminReservations.tsx","./src/pages/admin/AdminRestaurants.tsx"],"version":"5.9.3"}
